@@ -1,6 +1,6 @@
-### **FocusTube** - *A WebExtension for watching YouTube videos while scrolling through the comments*
+### **FocusTube** - *A WebExtension for watching YouTube videos while scrolling down the comment section*
 ![logo](https://github.com/TheAdnan/focustube/blob/master/icons/focustube-48.png) 
-##### Watch your YouTube videos while you scroll through the comment section
+#### Watch your YouTube videos while scrolling through down the comments
 
 
 
