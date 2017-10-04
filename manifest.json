@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "focustube",
+  "version": "1.0",
+
+  "description": "Watch your YouTube videos while scrolling through the comments",
+
+  "icons": {
+    "48": "icons/focustube-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+      ],
+
+  "browser_action": {
+    "default_icon": "icons/focustube-48.png",
+    "default_title": "FocusTube"
+  },
+
+  "background":
+    {
+      "scripts": ["index.js"]
+    }
+}
