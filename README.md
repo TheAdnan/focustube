@@ -6,4 +6,4 @@ ___
 You can install the extension from this [link](https://addons.mozilla.org/en-US/firefox/addon/focus-tube/). Cheers!
 
 ##### Screenshots
-![gif](https://i.imgur.com/roQpBCs.gif)
+![gif](https://i.imgur.com/HVInwzZ.gif)
