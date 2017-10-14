@@ -7,3 +7,8 @@ You can install the extension from this [link](https://addons.mozilla.org/en-US/
 
 ##### Screenshots
 ![gif](https://i.imgur.com/HVInwzZ.gif)
+
+#### Contributors
+TheAdnan
+adnanrahic
+
