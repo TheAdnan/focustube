@@ -2,7 +2,7 @@
 ![logo](https://github.com/TheAdnan/focustube/blob/master/icons/focustube-48.png) 
 ##### Watch your YouTube videos while scrolling through down the comments
 ___
-##### Installation
+#### Installation
 You can install the extension from this [link](https://addons.mozilla.org/en-US/firefox/addon/focus-tube/). Cheers!
 
 ##### Screenshots
@@ -11,3 +11,4 @@ You can install the extension from this [link](https://addons.mozilla.org/en-US/
 #### Contributors
 TheAdnan
 adnanrahic
+
