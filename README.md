@@ -13,11 +13,11 @@
   </a>
 </p>
 <p align="center">
-Watch your YouTube videos while scrolling through down the comments
+Watch your YouTube videos while scrolling down through  the comments
 </p>
-                 
-## About
-A WebExtension for watching YouTube videos while scrolling down the comment section
+             
+              ## About
+A WebExtension for watching YouTube videos while scrolling down the comment section.
 
 ### Installation
 You can install the extension from this [link](https://addons.mozilla.org/en-US/firefox/addon/focus-tube/). Cheers! 🎉
