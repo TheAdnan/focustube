@@ -5,7 +5,7 @@
   <a href="#">
     <img src="https://img.shields.io/badge/made%20with-love-E760A4.svg" alt="Made with love">
   </a>
-	   <a href="#">
+	   <a href="https://opensource.org/licenses/MPL-2.0">
     <img src="https://img.shields.io/github/license/TheAdnan/focustube.svg" alt="License">
   </a>          
    <a href="https://github.com/TheAdnan/focustube/graphs/contributors" target="_blank">
@@ -24,5 +24,3 @@ You can install the extension from this [link](https://addons.mozilla.org/en-US/
 
 #### Screenshots
 ![gif](https://i.imgur.com/HVInwzZ.gif)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
