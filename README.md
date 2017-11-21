@@ -16,7 +16,7 @@
 Watch your YouTube videos while scrolling down through  the comments
 </p>
              
-              ## About
+## About
 A WebExtension for watching YouTube videos while scrolling down the comment section.
 
 ### Installation
