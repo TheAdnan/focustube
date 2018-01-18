@@ -20,7 +20,7 @@ Watch your YouTube videos while scrolling down through  the comments
 A WebExtension for watching YouTube videos while scrolling down the comment section.
 
 ### Installation
-You can install the extension from this [link](https://addons.mozilla.org/en-US/firefox/addon/focus-tube/). Cheers! 🎉
+You can install the extension from this [link](https://addons.mozilla.org/en-US/firefox/addon/focustube-extension/). Cheers! :tulip:
 
 #### Screenshots
 ![gif](https://i.imgur.com/HVInwzZ.gif)
