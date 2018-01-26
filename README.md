@@ -11,6 +11,9 @@
 <a href="https://github.com/TheAdnan/focustube/graphs/contributors" target="_blank">
     <img src="https://img.shields.io/github/contributors/TheAdnan/focustube.svg" alt="Contributors">
   </a>
+<a href="https://addons.mozilla.org/en-US/firefox/addon/focustube-extension/" target="_blank">
+    <img src="https://img.shields.io/badge/Firefox-Addon-orange.svg" alt="Download">
+  </a>
 </p>
 <p align="center">
 Watch your YouTube videos while scrolling down through  the comments
