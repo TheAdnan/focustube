@@ -2,11 +2,15 @@
 browser.browserAction.onClicked.addListener(function () {
     browser.storage.local.get("focustube")
         .then(function (oldSettings) { // if has existing settings in storage
-            const newSettings = { focus: !(oldSettings.focustube.focus) }; // just toggle the value
+            let newSettings;
+            if(oldSettings && oldSettings.focustube) {
+                newSettings = { focus: !(oldSettings.focustube.focus) }; // just toggle the value
+            } else {
+                newSettings = { focus: true }; // initial is true
+            }
             save(newSettings);
         }, function (error) {
-            const newSettings = { focus: true }; // initial is true
-            save(newSettings);
+            console.debug('error: ' + JSON.stringify(error));
         });
 });
 
