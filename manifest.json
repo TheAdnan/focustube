@@ -12,7 +12,9 @@
 
   "permissions": [
     "activeTab",
-    "tabs"
+    "tabs",
+    "storage",
+    "*://*.youtube.com/*"
   ],
 
   "browser_action": {
@@ -20,8 +22,15 @@
     "default_title": "FocusTube"
   },
 
-  "background":
+  "background": {
+    "scripts": ["index.js"]
+  },
+
+  "content_scripts": [
     {
-      "scripts": ["index.js"]
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["focus.js"],
+      "run_at": "document_end"
     }
+  ]
 }

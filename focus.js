@@ -1,18 +1,47 @@
 $ = (queryString) => document.querySelector(queryString);
 
-function focus(){
-	if($(".html5-video-container").style.position == 'fixed'){
-		$(".html5-video-container").style.position = 'relative';
-        $("video").style.width = "854px";
-        $("video").style.height = "480px";
-		$(".html5-video-player").style.setProperty("background-color", "black");
-	}
-	else{
-		$(".html5-video-container").style.position = 'fixed';
-        $("video").style.width = "426px";
-        $("video").style.height = "240px";
-		$(".html5-video-player").style.setProperty("background-color", "white");
-	}
+refresh();
+
+function refresh() {
+    browser.storage.local.get("focustube")
+        .then(function (settings) {
+            console.debug('existing: ' + JSON.stringify(settings));
+            if (settings.focustube.focus) {
+                focus();
+            } else {
+                reset();
+            }
+        }, function (error) {
+            console.debug('error: ' + JSON.stringify(error));
+        });
 }
 
-focus();
+function focus() {
+    // fix player itself
+    const playerElem = $('.html5-video-player');
+    playerElem.style.position = 'fixed';
+    playerElem.style.height = '52vh'; // 3:2
+    playerElem.style.width = '78vh';
+    playerElem.style.left = '15px';
+    playerElem.style.top = '75px';
+    playerElem.style.zIndex = '999';
+    // update background also
+    const playerContainerElem = $('#player-container-outer');
+    playerContainerElem.style.height = playerElem.style.height;
+    playerContainerElem.style.width = playerElem.style.width;
+    playerContainerElem.style.setProperty('background-color', 'black');
+}
+
+function reset() {
+    const playerElem = $('.html5-video-player');
+    playerElem.style.position = 'relative';
+    playerElem.style.height = '100%';
+    playerElem.style.width = '100%';
+    playerElem.style.left = '0px';
+    playerElem.style.top = '0px';
+    playerElem.style.zIndex = 'auto';
+    const playerContainerElem = $('#player-container-outer');
+    playerContainerElem.style.height = playerElem.style.height;
+    playerContainerElem.style.width = playerElem.style.width;
+    playerContainerElem.style.setProperty('background-color', 'white');
+}
