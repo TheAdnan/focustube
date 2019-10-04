@@ -23,13 +23,19 @@
   },
 
   "background": {
-    "scripts": ["index.js"]
+    "scripts": [
+      "browser-polyfill.min.js",
+      "index.js"
+    ]
   },
 
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
-      "js": ["focus.js"],
+      "js": [
+        "browser-polyfill.min.js",
+        "focus.js"
+      ],
       "run_at": "document_end"
     }
   ]
